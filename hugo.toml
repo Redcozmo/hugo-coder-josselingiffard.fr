@@ -13,6 +13,7 @@ style = "github-dark"
 
 [params]
   author = "Josselin GIFFARD-CARLET"
+  license = '<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA-4.0</a>'
   info = "Géomaticien"
   description = "Je suis ingénieur, géomaticien et développeur web. Sur ce blog personnel dédié à la géomatique, j'exploite des données spatialisées ouvertes, les appliquant à des cas pratiques à l'aide de logiciels ou de langages de programmation. Mon objectif est de partager l'expérimentation et les connaissances que j'en tire à travers des articles de type tutoriels."
   keywords = "geomatic, cartography, satellite imagery, blog, engineer, developer"
@@ -24,6 +25,9 @@ style = "github-dark"
   favicon_16 = "/img/favicon-16x16.png"
 
   since = 2023
+
+  # Git Commit in Footer
+  commit = "https://github.com/luizdepra/hugo-coder/tree/"
 
   enableTwemoji = true
 

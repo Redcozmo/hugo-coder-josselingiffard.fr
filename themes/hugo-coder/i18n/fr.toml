@@ -31,7 +31,7 @@ other = "Désolé, cette page n'existe pas."
 other = "Vous pouvez revenir à <a href=\"{{ . }}\">l'accueil</a>."
 
 [licensed_under]
-other = "Licensed under"
+other = "Contenus sous licence"
 
 [powered_by]
 other = "Propulsé par"
