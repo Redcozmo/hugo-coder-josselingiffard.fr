@@ -36,7 +36,7 @@ J'ai décidé d'écrire en français considérant que de nombreuses ressources s
 
 # À propos du site
 
-[Sources](https://github.com/Redcozmo/josselingiffard.fr) hébergées sur github.  
+Sources hébergées sur [github](https://github.com/Redcozmo/hugo-coder-josselingiffard.fr).   
 Construit avec [Blogdown](https://bookdown.org/yihui/blogdown/).  
 Généré avec [Hugo](https://gohugo.io/) et le thème [hugo-coder](https://github.com/luizdepra/hugo-coder/).  
 Hebergé sur [Netlify](https://www.netlify.com/).  
