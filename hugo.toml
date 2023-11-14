@@ -1,5 +1,5 @@
-baseurl = "http://www.example.com"
-title = "josselingiffardcarlet"
+baseurl = "https://www.josselingiffard.fr"
+title = "josselin giffard-carlet"
 theme = "hugo-coder"
 languagecode = "fr"
 defaultcontentlanguage = "fr"
@@ -14,8 +14,8 @@ style = "github-dark"
 [params]
   author = "Josselin GIFFARD-CARLET"
   info = "Géomaticien"
-  description = "Blog personnel"
-  keywords = "blog,developer,personal,geomatic,machinelearning"
+  description = "Je suis ingénieur, géomaticien et développeur web. Sur ce blog personnel dédié à la géomatique, j'exploite des données spatialisées ouvertes, les appliquant à des cas pratiques à l'aide de logiciels ou de langages de programmation. Mon objectif est de partager l'expérimentation et les connaissances que j'en tire à travers des articles de type tutoriels."
+  keywords = "geomatic, cartography, satellite imagery, blog, engineer, developer"
   avatarurl = "images/avatar.jpg"
   #gravatar = "john.doe@example.com"
 
@@ -40,6 +40,9 @@ style = "github-dark"
   tag = "tags"
   author = "authors"
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 # Social links
 [[params.social]]
   name = "Github"
@@ -52,10 +55,10 @@ style = "github-dark"
   weight = 2
   url = "https://gitlab.com/jgiffardcarlet"
 [[params.social]]
-  name = "Twitter"
-  icon = "fa fa-twitter fa-2x"
+  name = "linkedin"
+  icon = "fa fa-linkedin fa-2x"
   weight = 3
-  url = "https://twitter.com/joss2lyon"
+  url = "https://www.linkedin.com/in/josselin-giffard-carlet/"
 
 # Menu links
 [[menu.main]]
@@ -67,6 +70,6 @@ style = "github-dark"
   weight = 2
   url  = "notes/"
 [[menu.main]]
-  name = "A propos"
+  name = "À propos"
   weight = 3
   url = "about/"
