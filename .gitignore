@@ -1,7 +1,9 @@
 hugo-coder-josselingiffard.fr.Rproj
 .hugo_build.lock
-.Rproj.user
+.Rproj.user/
 .Rhistory
 .Rprofile
 .RData
 .Ruserdata
+resources/
+public/
