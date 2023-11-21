@@ -131,6 +131,12 @@ body.colorscheme-dark {
     body.colorscheme-auto table tr th:last-child {
       border-right: 0; } }
 
+mark {
+  background-color: #FF9209;
+  color: #212121;
+  border-radius: 2px;
+  font-weight: bold; }
+
 body.colorscheme-dark .content .post .tags .tag {
   background-color: #424242; }
   body.colorscheme-dark .content .post .tags .tag a {
