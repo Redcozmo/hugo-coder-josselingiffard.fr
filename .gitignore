@@ -1,9 +1,12 @@
-hugo-coder-josselingiffard.fr.Rproj
+*.Rproj
 .hugo_build.lock
 .Rproj.user/
 .Rhistory
 .Rprofile
 .RData
 .Ruserdata
-resources/
-public/
+/resources/
+/public/
+**/index_cache/
+.DS_Store
+Thumbs.db
