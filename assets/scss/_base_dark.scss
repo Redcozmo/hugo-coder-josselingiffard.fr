@@ -89,3 +89,10 @@ body.colorscheme-auto {
     @include base_dark();
   }
 }
+
+mark {
+  background-color: $link-color-dark;
+  color: $bg-color-dark;
+  border-radius: 2px;
+  font-weight: bold;
+}

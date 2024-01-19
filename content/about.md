@@ -7,11 +7,11 @@ date: 2023-11-14
 lastMod: 2023-11-14
 ---
 
-# À propos de moi :
+# À propos de moi
 
-Je m'appelle <mark>**Josselin GIFFARD-CARLET**</mark> et me lance dans l'apprentissage de la <mark>**géomatique**</mark> étant passionné par les cartes et amateur de bidouillage de code.
+Je m'appelle <mark>**Josselin GIFFARD-CARLET**</mark> et je me lance dans l'apprentissage de la <mark>**géomatique**</mark> poussé par mon intérêt pour les cartes et l'envie de bidouiller avec du code.
 
-Après un parcours riche dans l'ingénierie nucléaire, je fais mes premiers pas dans le monde de la géomatique. Un mastère spécialisée en <mark>**Systèmes d’informations localisées pour l’aménagement des territoires**</mark> [SILAT](https://formation-continue.agroparistech.fr/catalogue-de-formation/ms-silat-systemes-dinformations-localisees-pour-lamenagement-territoires) réalisé à **AgroParisTech** m'a catapulté dans ce monde des données géographique et de leur potentiel  pour observer et comprendre notre société.
+Après un parcours riche dans l'ingénierie nucléaire, je fais mes premiers pas dans le monde de la géomatique. Un mastère spécialisée en **Systèmes d’Informations Localisées pour l’Aménagement des Territoires** [SILAT](https://formation-continue.agroparistech.fr/catalogue-de-formation/ms-silat-systemes-dinformations-localisees-pour-lamenagement-territoires) réalisé à **AgroParisTech** m'a catapulté dans ce monde des données géographique et de leur potentiel  pour observer et comprendre notre société.
 
 Au-delà de ma formation, je privilégie les solutions open source et m'efforce de les adopter autant que possible pour résoudre diverses problématiques.
 
@@ -36,10 +36,10 @@ J'ai décidé d'écrire en français considérant que de nombreuses ressources s
 
 # À propos du site
 
-[Sources](https://github.com/Redcozmo/josselingiffard.fr) hébergées sur github.  
-Construit avec [Blogdown](https://bookdown.org/yihui/blogdown/).  
-Généré avec [Hugo](https://gohugo.io/) et le thème [hugo-coder](https://github.com/luizdepra/hugo-coder/).  
-Hebergé sur [Netlify](https://www.netlify.com/).  
+Sources hébergées chez [github](https://github.com/Redcozmo/hugo-coder-josselingiffard.fr)   
+Construit avec [Blogdown](https://bookdown.org/yihui/blogdown/)  
+Généré avec [Hugo](https://gohugo.io/) et le thème [hugo-coder](https://github.com/luizdepra/hugo-coder/)  
+Hebergé chez [Netlify](https://www.netlify.com/)  
 
 # Licence
 

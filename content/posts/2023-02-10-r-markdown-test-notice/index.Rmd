@@ -1,0 +1,105 @@
+---
+title: "R markdown test notice"
+author: "Josselin GIFFARD-CARLET"
+date: "2023-02-10"
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
+slug: "rmarkdown-test-notice"
+draft: yes
+categories: R
+tags:
+- lidar
+- osm
+- opendata
+summary: ''
+editor_options:
+  markdown:
+    wrap: 72
+  chunk_output_type: inline
+---
+
+```{r chunks_setup, include = FALSE}
+knitr::opts_chunk$set(cache = TRUE,
+                      out.width = "100%",
+                      collapse = TRUE)
+```
+
+# R Markdown
+
+{{< notice warning >}}
+Test shortcode notice
+{{< /notice >}}
+
+# Introduction {#introduction}
+
+Le programme de couverture nationale en [LiDAR
+HD](https://geoservices.ign.fr/lidarhd) de l'IGN est en cours et prévu
+sur une diurée de 5 ans. Les données diffusées sont des nuages de points
+en 3 dimensions bruts ou classifiés. Plus tard nous auront à disposition
+sur la France entière des produits dérivés comme le MNT (modèles
+numériques de terrain), le MNS (modèles numériques de surface) et le MNH
+(modèles numériques de hauteur). En attendant ces produits IGN, nous
+allons voir comment utiliser ces nuages de points avec un package R
+nommé lidR.
+
+# Objectifs {#objectifs}
+
+{{< notice warning >}}
+Sous Ubuntu des dépendances sont à installer au préalable comme indiqué
+sur le dépot GitHub [dépot GitHub
+lidR](https://github.com/r-lidar/lidR#install-lidr-dependencies-on-gnulinux)
+{{< /notice >}}
+
+
+```{r load_libraries, message=FALSE, results='hide'}
+library(sf) # for spatial vector data manipulation
+library(dplyr)
+library(tmap) # for visualisation
+library(maptiles)
+library(leaflet) # for interactive map plot
+library(widgetframe)
+```
+
+
+```{r set_datadir, echo=FALSE}
+data_dir <- "/home/ubuntu/Documents/TRAVAIL_cle/data/mnc_lidar"
+```
+
+
+
+```{r boundary_reading}
+query <- "Fontaines-Saint-Martin"
+boundary_dir <- "metropole-de-lyon"
+boundary_file <- "adr_voie_lieu_adrcomgl.shp"
+boundary_filepath <- paste(data_dir, boundary_dir, boundary_file, sep = "/")
+file_layer <- "adr_voie_lieu_adrcomgl"
+fsm <- st_read(dsn = boundary_filepath,
+               layer = file_layer,
+               quiet = TRUE) %>%
+  filter(nom == query)
+fsm
+```
+
+
+
+
+```{r boundary_visualisation, include=FALSE}
+tmap_mode("view")
+tm <- 
+  tm_basemap(c(OpenStreetMap = "OpenStreetMap",
+               GeoportailFrance.orthos = "GeoportailFrance.orthos",
+               OpenTopoMap = "OpenTopoMap")) +
+  tm_shape(fsm) +
+  tm_polygons(border.col = 'black', lwd = 5, alpha = 0.5)
+```
+
+
+```{r las_bbox_on_map, include=FALSE}
+leaflet() %>%
+  addTiles() %>%
+  addPolygons(data = fsm)
+```
+
+

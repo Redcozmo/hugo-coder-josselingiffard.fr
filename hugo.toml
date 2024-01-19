@@ -8,11 +8,17 @@ paginate = 20
 
 disqusShortname = "yourdiscussshortname"
 
+[params.umami]
+  siteID = "5c6881b6-df4b-4806-a4c9-ab7ce6b7e078"
+  scriptURL = "https://eu.umami.is/script.js"
+
 [markup.highlight]
-style = "github-dark"
+  style = "github-dark"
 
 [params]
   author = "Josselin GIFFARD-CARLET"
+  license = '<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA-4.0</a>'
+  dateFormat = "2 January 2006"
   info = "Géomaticien"
   description = "Je suis ingénieur, géomaticien et développeur web. Sur ce blog personnel dédié à la géomatique, j'exploite des données spatialisées ouvertes, les appliquant à des cas pratiques à l'aide de logiciels ou de langages de programmation. Mon objectif est de partager l'expérimentation et les connaissances que j'en tire à travers des articles de type tutoriels."
   keywords = "geomatic, cartography, satellite imagery, blog, engineer, developer"
@@ -25,13 +31,16 @@ style = "github-dark"
 
   since = 2023
 
+  # Git Commit in Footer
+  commit = "https://github.com/luizdepra/hugo-coder/tree/"
+
   enableTwemoji = true
 
   colorScheme = "auto"
   hidecolorschemetoggle = false
 
   # customCSS = ["css/custom.css"]
-  # customSCSS = ["scss/custom.scss"]
+  customSCSS = ["scss/custom.scss"]
   # customJS = ["js/custom.js"]
 
 [taxonomies]
@@ -73,3 +82,6 @@ style = "github-dark"
   name = "À propos"
   weight = 3
   url = "about/"
+
+# ignoreFiles
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]

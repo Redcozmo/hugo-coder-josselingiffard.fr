@@ -1,0 +1,66 @@
+---
+title: "test-notice-with-leaflet-or-tmap"
+author: ''
+date: "2024-01-17"
+slug: []
+categories: []
+tags: []
+authors: []
+description: ''
+externalLink: ''
+series: []
+---
+
+```{r load_libraries, message=FALSE, results='hide'}
+library(sf)
+library(dplyr)
+library(tmap)
+library(leaflet)
+library(widgetframe)
+```
+
+# A notice from theme hugo-coder
+
+`r htmltools::HTML("
+{{< notice warning >}}
+Test shortcode notice
+{{< /notice >}}
+")`
+
+{{< notice warning >}}
+Test shortcode notice
+{{< /notice >}}
+
+# Shortcode hugo vimeo
+
+`r htmltools::HTML("
+{{< vimeo 55073825 >}}
+")`
+
+{{< vimeo 55073825 >}}
+
+# Leaflet...
+
+```{r leaflet}
+leaflet() %>%
+  addTiles()
+```
+
+```{r tmap, message=FALSE}
+tmap_mode("view")
+tm <- 
+  tm_basemap(c(OpenStreetMap = "OpenStreetMap",
+               GeoportailFrance.orthos = "GeoportailFrance.orthos",
+               OpenTopoMap = "OpenTopoMap"));tm
+```
+
+```{r tmap2, message=FALSE}
+tmap_mode("view")
+tm_basemap()
+```
+
+```{r tmap3, message=FALSE}
+tmap_mode("plot")
+tm_basemap()
+```
+
