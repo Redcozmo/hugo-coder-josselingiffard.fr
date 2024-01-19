@@ -78,3 +78,6 @@ style = "github-dark"
   name = "À propos"
   weight = 3
   url = "about/"
+  
+# ignoreFiles
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
