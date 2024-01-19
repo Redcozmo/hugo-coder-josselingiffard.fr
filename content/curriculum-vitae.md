@@ -6,57 +6,59 @@ date: 2023-11-14
 lastMod: 2023-11-14
 ---
 
-# *Josselin Giffard-Carlet*
-Géomaticien  
-
-***
+**Josselin Giffard-Carlet**<br />
+Géomaticien<br />
 
 ## Sommaire
+***
 
-[Expériences professionelles](#experiences-professionelles)  
-[Formations](#formations)  
-[Publications](#publications)  
+[Expériences professionelles](#experiences-professionelles)<br />
+[Formations](#formations)<br />
+[Publications](#publications)<br />
 [Projets](#projets)
 
-***
-
 ## Expériences professionelles
-
-Ingénieur recherche – INRAE / UMR TETIS  
-_Montpellier_  
-_Décembre 2021 -> Décembre 2022_  
-**Modélisation de l'habitat favorable à la reproduction du TETRAS LYRE dans les Alpes**
-
-Stage Recherche – INRAE / UMR TETIS  
-_Montpellier_  
-_Avril 2021 -> novembre 2021_  
-**Suivi des traits chimiques foliaires de la végétation méditerranéenne - projet SENTHYMED**
-
-Ingénieur – EDF / ANDRA / CEA  
-_Ile de France / Lyon_  
-_2009 -> 2018_  
-**Chargé de calculs d’emballages de transport de matières radioactives et chargé
-d’études du bâtiment combustible EPR (Evolutionary Power Reactor)**
-
 ***
+
+<mark>**Modélisation de l'habitat favorable à la reproduction du TETRAS LYRE dans les Alpes**</mark><br />
+Ingénieur recherche – INRAE / UMR TETIS<br />
+_Montpellier_<br />
+(_Décembre 2021 -> Décembre 2022_)<br />
+
+{{< youtube gn3xFsQROe0 >}}
+
+<mark>**Suivi des traits chimiques foliaires de la végétation méditerranéenne**</mark> - **Projet SENTHYMED**<br />
+Stage Recherche – INRAE / UMR TETIS<br />
+_Montpellier_<br />
+_Avril 2021 -> novembre 2021_<br />
+
+![senthymed project](/images/senthymed.png)
+
+<mark>**Chargé de calculs d’emballages de transport de matières radioactives et chargé
+d’études du bâtiment combustible EPR (Evolutionary Power Reactor)**</mark><br />
+Ingénieur – EDF / ANDRA / CEA<br />
+_Ile de France / Lyon_<br />
+_2009 -> 2018_<br />
+
+{{< youtube WfDxewxlBxg >}}
 
 ## Formations
-
-**Mastère spécialisé SILAT (Systèmes d’Informations Localisées pour l’Aménagement des Territoires)**  
-AgroParisTech – Montpellier  
-2020 -> 2021
-
-**Développeur Full Stack Web - Ruby On Rails**  
-The Hacking Project – Lyon  
-2019 (6 mois)
-
-**Ingénieur mécanique / Master Recherche Mécanique Energétique**  
-Polytech / Ecole Doctorale - Lyon  
-2006 -> 2009
-
 ***
 
+<mark>**Mastère spécialisé SILAT**</mark> **(Systèmes d’Informations Localisées pour l’Aménagement des Territoires)**<br />
+AgroParisTech – Montpellier<br />
+2020 -> 2021
+
+<mark>**Développeur Full Stack Web**</mark> - **Ruby On Rails**<br />
+The Hacking Project – Lyon<br />
+2019 (6 mois)
+
+<mark>**Ingénieur mécanique / Master Recherche Mécanique Energétique**</mark><br />
+Polytech / Ecole Doctorale - Lyon<br />
+2006 -> 2009
+
 ## Publications
+***
 
 Defossez, A., Alleaume, S. , Souza Oliveira, M., Ienco, D., <mark>**<u>Giffard-Carlet, J.</u>**</mark> and Luque, S.
 Using remote sensing to model the breeding habitat of the Black Grouse in open forest,
@@ -81,10 +83,9 @@ Imaging Spectroscopy, 19-21 october 2022, Frascati, Italy.
 méditerranéenne par spectroscopie foliaire, imagerie satellite SENTINEL-2 et imagerie
 hyperspectrale aéroportée, Mémoire De Thèse Professionelle du Mastère Spécialisé SILAT - Systèmes d’Informations Localisées pour l’Aménagement des Territoires.
 
+## Projets
 ***
 
-## Projets
-
 ### Senthymed
-https://remotetree.sedoo.fr/senthymed/
-https://hyperspectral2022.esa.int/iframe-agenda/files/presentation-160.pdf
+https://remotetree.sedoo.fr/senthymed/<br />
+https://hyperspectral2022.esa.int/iframe-agenda/files/presentation-160.pdf<br />

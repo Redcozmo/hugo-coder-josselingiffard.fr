@@ -11,7 +11,7 @@ lastMod: 2023-11-14
 
 Je m'appelle <mark>**Josselin GIFFARD-CARLET**</mark> et je me lance dans l'apprentissage de la <mark>**géomatique**</mark> poussé par mon intérêt pour les cartes et l'envie de bidouiller avec du code.
 
-Après un parcours riche dans l'ingénierie nucléaire, je fais mes premiers pas dans le monde de la géomatique. Un mastère spécialisée en <mark>**Systèmes d’Informations Localisées pour l’Aménagement des Territoires**</mark> [SILAT](https://formation-continue.agroparistech.fr/catalogue-de-formation/ms-silat-systemes-dinformations-localisees-pour-lamenagement-territoires) réalisé à **AgroParisTech** m'a catapulté dans ce monde des données géographique et de leur potentiel  pour observer et comprendre notre société.
+Après un parcours riche dans l'ingénierie nucléaire, je fais mes premiers pas dans le monde de la géomatique. Un mastère spécialisée en **Systèmes d’Informations Localisées pour l’Aménagement des Territoires** [SILAT](https://formation-continue.agroparistech.fr/catalogue-de-formation/ms-silat-systemes-dinformations-localisees-pour-lamenagement-territoires) réalisé à **AgroParisTech** m'a catapulté dans ce monde des données géographique et de leur potentiel  pour observer et comprendre notre société.
 
 Au-delà de ma formation, je privilégie les solutions open source et m'efforce de les adopter autant que possible pour résoudre diverses problématiques.
 
