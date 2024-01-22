@@ -24,8 +24,9 @@ Géomaticien<br />
 Ingénieur recherche – INRAE / UMR TETIS<br />
 _Montpellier_<br />
 (_Décembre 2021 -> Décembre 2022_)<br />
+La fiche de poste : [ici](https://www.theia-land.fr/wp-content/uploads/2021/09/Expert_teledetection_modelisation_Tetra-Lyre_OFB-INRAE.pdf)
 
-{{< youtube gn3xFsQROe0 >}}
+{{< youtube _VrSuZJFpps >}}
 
 <mark>**Suivi des traits chimiques foliaires de la végétation méditerranéenne**</mark> - **Projet SENTHYMED**<br />
 Stage Recherche – INRAE / UMR TETIS<br />

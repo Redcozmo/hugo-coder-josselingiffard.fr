@@ -1,4 +1,4 @@
-baseurl = "https://www.josselingiffard.fr"
+baseurl = "josselingiffard.netlify.app"
 title = "josselin giffard-carlet"
 theme = "hugo-coder"
 languagecode = "fr"
