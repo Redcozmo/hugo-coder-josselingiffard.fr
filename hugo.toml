@@ -1,19 +1,10 @@
 baseurl = "/"
-title = "josselin giffard-carlet"
+title = "Josselin Giffard-Carlet"
 theme = "hugo-coder"
 languagecode = "fr"
 defaultcontentlanguage = "fr"
 
 paginate = 20
-
-disqusShortname = "yourdiscussshortname"
-
-[params.umami]
-  siteID = "5c6881b6-df4b-4806-a4c9-ab7ce6b7e078"
-  scriptURL = "https://eu.umami.is/script.js"
-
-[markup.highlight]
-  style = "github-dark"
 
 [params]
   author = "Josselin GIFFARD-CARLET"
@@ -42,6 +33,28 @@ disqusShortname = "yourdiscussshortname"
   # customCSS = ["css/custom.css"]
   customSCSS = ["scss/custom.scss"]
   # customJS = ["js/custom.js"]
+
+[params.giscus] # https://giscus.app
+  repo = "Redcozmo/hugo-coder-josselingiffard.fr"
+  repoID = "R_kgDOKtWRFA"
+  category = "Announcements"
+  categoryID = "DIC_kwDOKtWRFM4Cc3P0"
+  mapping = "title"
+  term = ""
+  strict = "0"
+  reactionsEnabled = "1"
+  emitMetadata = "0"
+  inputPosition = "top"
+  theme = "preferred_color_scheme"
+  lang = "fr"
+  loading = "anonymous"
+
+[params.umami]
+  siteID = "5c6881b6-df4b-4806-a4c9-ab7ce6b7e078"
+  scriptURL = "https://eu.umami.is/script.js"
+
+[markup.highlight]
+  style = "github-dark"
 
 [taxonomies]
   category = "categories"
